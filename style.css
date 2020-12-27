@@ -1,0 +1,224 @@
+body {
+    background: #efeff1;
+}
+
+.container {
+    background: #ffffff;
+    min-width: 90%;
+    height: 20%;
+    margin: 100px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.178);
+}
+
+.hero {
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    color: rgb(6, 20, 99);
+}
+
+.hero-copy p {
+    font-family: "Lora", serif;
+    font-size: 0.78rem;
+    margin-top: 10px;
+    color: #7d799a;
+}
+
+.duration-button {
+    border: 0.2px solid rgba(37, 37, 37, 0.068);
+    margin-top: 30px;
+    padding: 1px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.096);
+    display: flex;
+    align-items: center;
+}
+
+.duration1 {
+    background: rgb(6, 20, 99);
+    padding: 10px 15px 10px 15px;
+    border-radius: 50px;
+}
+
+.duration1 a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: "Lora", serif;
+    font-size: 0.78rem;
+}
+
+.duration2 {
+    background: white;
+    padding: 10px 15px 10px 15px;
+    border-radius: 50px;
+}
+
+.duration2 a {
+    margin-left: 2px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(6, 20, 99);
+    font-family: "Lora", serif;
+    font-size: 0.78rem;
+}
+
+.cards {
+    min-height: 500px;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(6, 20, 99);
+}
+
+.intro-card {
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px;
+    height: 350px;
+    margin: 5px 5px;
+}
+
+.intro-card h2 {
+    font-family: "Lora", serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.price h3 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.price p {
+    font-family: "Lora", serif;
+    font-size: 0.78rem;
+}
+
+.card-copy {
+    margin-top: 10px;
+}
+
+.card-copy p {
+    font-family: "Lora", serif;
+    font-size: 0.78rem;
+}
+.offer {
+    margin-top: 15px;
+    display: flex;
+}
+
+.offer p {
+    margin-left: 10px;
+    font-family: "Lora", serif;
+    font-size: 0.78rem;
+}
+
+.card-button {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    border: 0.3px solid rgb(6, 20, 99);
+    border-radius: 5px;
+    padding: 8px;
+    text-align: center;
+    background: #ffffff;
+    align-items: center;
+}
+
+.card-button a {
+    text-decoration: none;
+    font-family: "Lora", serif;
+    font-size: 0.78rem;
+    font-weight: 600;
+}
+
+.intro-card:hover {
+    background: black;
+    color: #ffffff;
+}
+
+.popular-card{
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px;
+    height: 350px;
+    background: rgb(6, 20, 99);
+    margin: 5px 5px;
+}
+
+.popular-card h2{
+    font-family: "Lora", serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.popular-card .price{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.popular-card .price h3{
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.popular-card .price p{
+    font-family: "Lora", serif;
+    font-size: 1rem;
+    color: #ffffff;
+    margin-left: 5px;
+}
+
+.popular-card .offer{
+    margin-top: 15px;
+    display: flex;
+    
+}
+
+.popular-card .offer p{
+    margin-left: 10px;
+    font-family: "Lora", serif;
+    font-size: 0.78rem;
+    color: #ffffff;
+}
+
+.popular-card .card-copy{
+    color: #ffffff;
+}
+
+.popular-card:hover {
+    background: black;
+    color: #ffffff;
+}
+
+
+
+
